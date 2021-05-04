@@ -1,0 +1,10 @@
+li{
+    
+    margin:0% 152%;
+}
+#navbarSupportedContent > ul > li:nth-child(2) > a{
+    margin-top: 40px;
+}
+[aria-current]:not([aria-current="false"]) {
+    border-top-style: double;
+  }

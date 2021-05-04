@@ -1,0 +1,63 @@
+.card{
+    display: block;
+    margin: 3% auto;
+    height: 75%;
+    width: 83%;  
+    
+}
+
+.User img{
+    height:40px;
+    width: 40px;
+    border-radius: 100%;
+}
+
+h6{
+    margin-left: 2%;
+}
+.footer
+{
+    position: fixed;
+    background-color: brown;
+}
+
+button {
+    margin-right: 2% ;
+}
+
+img.propic{
+    display: inline-block;
+}
+h6.userName{
+    display: inline-block;
+    margin-left:2%;
+}
+button.edit{
+    display: inline-block;
+    margin-left: 69%
+}
+
+
+
+.marquee {
+    width: 450px;
+  height: 450px;
+  text-align: left;
+  background-color: cornsilk;
+  color: goldenrod;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+  
+  .marquee p {
+    display: inline-block;
+    padding-top: 100%;
+    animation: marquee 11s linear infinite;
+  }
+  
+  @keyframes marquee {
+    0%   { transform: translate(0, 0); }
+    100% { transform: translate(0, -100%); }
+  }
+  

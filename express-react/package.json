@@ -1,0 +1,22 @@
+{
+  "name": "express-react",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "concurrently \"nodemon ./bin/www\" \"cd client && npm start\""
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "mongoose": "^5.12.7",
+    "morgan": "~1.9.1",
+    "node-localstorage": "^2.1.6",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {
+    "concurrently": "^6.0.2"
+  }
+}
